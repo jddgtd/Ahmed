@@ -265,7 +265,7 @@ async def _(event):
                     if "A wait of" in str(eee):
                         break
                     else:
-                        await fifthon.send_message(event.chat.id, " اجاك متاح !")
+                        await fifthon.send_message(event.chat.id, " جاك خاصيه !")
             else:
                 pass
             trys += 1
@@ -273,7 +273,7 @@ async def _(event):
         isclaim.clear()
         isclaim.append("off")
         trys = ""
-        await event.client.send_message(event.chat_id, "اجاك متاح")
+        await event.client.send_message(event.chat_id, "جاك خاصيه")
         
 @fifthon.on(events.NewMessage(outgoing=True, pattern=r"\.تثبيت (.*)"))
 async def _(event):
@@ -344,8 +344,7 @@ async def _(event):
                     channel=ch, username=username))
                 await event.client.send_message(event.chat_id, f'''
 - Done ↣ (@{username})
-- By ↣ @iziii - @zbaak !
-- Hunting History ↣ {Hussenk}
+-- By ↣ @G_5_7 - @Y_u_8 - Hunting History ↣ {Hussenk}
 - Hunting Hour ↣ {Levii}
     ''')
             except telethon.errors.rpcerrorlist.UsernameInvalidError:
