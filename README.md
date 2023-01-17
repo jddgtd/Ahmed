@@ -1,8 +1,7 @@
-### تونسو و ادعولي
- ###  https://t.me/B_8_1     
+### هلا بيكم
+ ###  https://t.me/Y_u_8     
   
-  ### https://t.me/S8Y8S
+  ### https://t.me/G_5_7
 
-### A للتنصيب على هيروكو
 
-- Click on  [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/TheTepthon/ahhhhh)
+
