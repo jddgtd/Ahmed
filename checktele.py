@@ -273,7 +273,7 @@ async def _(event):
         isclaim.clear()
         isclaim.append("off")
         trys = ""
-        await event.client.send_message(event.chat_id, "جاك خاصيه")
+        await event.client.send_message(event.chat_id, "تم الانتهاء من الصيد !")
         
 @fifthon.on(events.NewMessage(outgoing=True, pattern=r"\.تثبيت (.*)"))
 async def _(event):
